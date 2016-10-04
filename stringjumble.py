@@ -27,20 +27,22 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 string=str(input("Please enter a string of text (the bigger the better): "))
 print('you entered "{0}". Now jumble it: '.format(string))
+"""
 number=0
 number2=0
 number3=0
 
-stringlist = list(string)
 print(list("".join(stringlist)))
 
-if stringlist[number]=' ':
+if stringlist[number]== ' ':
     newlist[number3]=stringlist[number2:number]
     number2=number
     number=number+1
     number3=number3+1
-
+"""
+stringlist = list(string)
 print("".join(stringlist)[::-1])
+
 """
 print("".join(stringlist2)[::-1])
 """
