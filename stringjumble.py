@@ -28,7 +28,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 string=str(input("Please enter a string of text (the bigger the better): "))
 print('you entered "{0}". Now jumble it: '.format(string))
 
-def reverse_w(stringlist):
+def reverse(stringlist):
     words = []
     word = []
     for char in stringlist:
@@ -43,7 +43,7 @@ def reverse_w(stringlist):
 
 stringlist = list(string)
 print("".join(stringlist)[::-1])
-print(reverse_w(stringlist))
+print(reverse(stringlist))
 """
 print("".join(stringlist2)[::-1])
 """
