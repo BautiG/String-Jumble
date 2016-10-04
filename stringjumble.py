@@ -44,6 +44,8 @@ def reverse(stringlist):
 stringlist = list(string)
 print("".join(stringlist)[::-1])
 print(reverse(stringlist))
+print(reverse(stringlist)[::-1])
 """
+#http://stackoverflow.com/questions/10745593/reverse-word-order-of-a-string-with-no-str-split-allowed
 print("".join(stringlist2)[::-1])
 """
