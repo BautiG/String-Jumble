@@ -40,9 +40,21 @@ if stringlist[number]== ' ':
     number=number+1
     number3=number3+1
 """
+def reverse(stringlist):
+    sentence = stringlist
+    answer = ''
+    temp = ''
+    for char in sentence:
+        if char != ' ':
+            temp += char
+        else:
+            temp = ''
+    answer = temp + ' ' + answer
+    return answer
+
 stringlist = list(string)
 print("".join(stringlist)[::-1])
-
+print(reverse(stringlist))
 """
 print("".join(stringlist2)[::-1])
 """
